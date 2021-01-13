@@ -1,0 +1,9 @@
+clear()
+clc
+clf
+x=[25 30 14 31]
+podpis=["Studenci znający angielski na poziomie przynajmniej B2","Studenci znający angielski B2 oraz inny język","Stduenci nie znający angielskiego","Studenci znający angielski na poziomie B2 oraz 2 inne języki"]
+pie (x)
+legend(podpis,5)
+title("Wykres kołowy nr 1: Znajomość języków obcych wśród studentów WMiI 2020")
+//w legendzie byłem zmuszony dać 5, przy innych wartościach legenda w ogóle nie była widoczna

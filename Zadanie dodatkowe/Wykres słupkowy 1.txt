@@ -1,0 +1,9 @@
+clear()
+clc
+clf
+x=[1 2 3 4 5 6]
+y=[5 2 4 6 14 8 ]
+bar(x,y,'green')
+title ("Wykres słupkowy nr 1: Oceny uczniów klasy 5")
+xlabel("Oceny")
+ylabel ("Liczba uczniów")

@@ -1,0 +1,5 @@
+clear();
+x=(-10:0.1:10);
+y=x^2-x+3;
+plot(x,y);
+title("Wykres liniowy nr 2 funkcji x^2-x+3")

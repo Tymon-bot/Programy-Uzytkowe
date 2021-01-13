@@ -1,0 +1,9 @@
+clear()
+clc
+clf
+x=(1:12)
+y=[1200 1300 900 1500 1400 700 660 752 1500 1300 1101 1600]
+bar(x,y,'green')
+title ("Wykres słupkowy nr 2: Łączne wydatki studenta informatyki na przestrzeni roku kalendarzowego 2020")
+xlabel("Miesiąc")
+ylabel ("Łączna suma wydatków [zł]")
